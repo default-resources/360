@@ -1,0 +1,17 @@
+{
+  "baseIdOrFallback": "Stability_RevenueUtils",
+  "gitSyncId": "655b663c44c3196dff1b331d_65e824f1eb9a6e271ab31010",
+  "id": "Stability_RevenueUtils",
+  "unpublishedCollection": {
+    "name": "RevenueUtils",
+    "pageId": "Stability",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "revenueByAccount",
+        "value": "null"
+      }
+    ]
+  }
+}

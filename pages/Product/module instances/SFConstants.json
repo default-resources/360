@@ -1,0 +1,15 @@
+{
+  "baseIdOrFallback": "Product_SFConstants",
+  "gitSyncId": "655b663c44c3196dff1b331d_65fb242f427a0f605ee12eb4",
+  "id": "Product_SFConstants",
+  "moduleUUID": "65ef241d12244e5a68238ab1",
+  "packageUUID": "65eee5e9cda3a1187b7da11b",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {},
+    "name": "SFConstants",
+    "pageId": "Product",
+    "version": "0.0.38"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baseIdOrFallback": "Success_FetchAggregateUsage",
+  "gitSyncId": "655b663c44c3196dff1b331d_65f3baca6f79c902d953fb12",
+  "id": "Success_FetchAggregateUsage",
+  "moduleUUID": "65f2bdc9410c3b7264152c79",
+  "packageUUID": "65f2bd3b044689431f7b87e4",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "endDate": "{{Stats_v2.getUsageInputs().currentDate}}",
+      "entity": "ACCOUNT_ID",
+      "metric": "{{Stats_v2.getUsageInputs().usage_metric}}",
+      "period": "MONTH",
+      "startDate": "{{Stats_v2.getUsageInputs().startDate}}",
+      "stripeCustomerID": "{{SFTableData.selectedRow.stripe_id_c}}",
+      "usageMeterID": ""
+    },
+    "moduleInputs": {
+      "btcdsuiojo": {},
+      "eehmywrtlj": {},
+      "mqkhranlyb": {},
+      "phkhdigeyc": {},
+      "pnvniorviu": {},
+      "tvhrvcscmb": {},
+      "xfvnjsbdjh": {}
+    },
+    "name": "FetchAggregateUsage",
+    "pageId": "Success",
+    "version": "0.0.13"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "baseIdOrFallback": "Success_Variables",
+  "gitSyncId": "655b663c44c3196dff1b331d_6567b18ea9d9fc7e3a58b47a",
+  "id": "Success_Variables",
+  "unpublishedCollection": {
+    "name": "Variables",
+    "pageId": "Success",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "subscriptionDetailsFlag",
+        "value": "true"
+      },
+      {
+        "name": "usageDetailsFlag",
+        "value": "false"
+      },
+      {
+        "name": "licenseDetailsFlag",
+        "value": "true"
+      }
+    ]
+  }
+}

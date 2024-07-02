@@ -1,0 +1,32 @@
+{
+  "baseIdOrFallback": "Success_FetchUsageReport",
+  "gitSyncId": "655b663c44c3196dff1b331d_65f3bb616f79c902d953fb1e",
+  "id": "Success_FetchUsageReport",
+  "moduleUUID": "65f2bdc9410c3b7264152c79",
+  "packageUUID": "65f2bd3b044689431f7b87e4",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "endDate": "{{Stats_v2.getUsageInputs().currentDate}}",
+      "entity": "{{undefined}}",
+      "metric": "USAGE",
+      "period": "{{ReportFrequency.selectedOptionValue}}",
+      "startDate": "{{Stats_v2.getUsageInputs().reportDate}}",
+      "stripeCustomerID": "{{SFTableData.selectedRow.stripe_id_c}}",
+      "usageMeterID": "um.1zquF6Ny3Z2.AOODs"
+    },
+    "moduleInputs": {
+      "btcdsuiojo": {},
+      "eehmywrtlj": {},
+      "mqkhranlyb": {},
+      "phkhdigeyc": {},
+      "pnvniorviu": {},
+      "tvhrvcscmb": {},
+      "xfvnjsbdjh": {}
+    },
+    "name": "FetchUsageReport",
+    "pageId": "Success",
+    "version": "0.0.13"
+  }
+}

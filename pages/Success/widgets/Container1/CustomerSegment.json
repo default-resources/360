@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "[]",
+  "displayName": "MultiSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.801e0376f5d71c420e7b490da23a44a6.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "onu9z6w8ha",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Filter By Customer Segment",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onOptionChange": "{{getSegmentSFAccounts.run()\nresetWidget(\"Select1\", true);}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 85,
+  "originalTopRow": 78,
+  "parentColumnSpace": 19.296875,
+  "parentId": "l31jkio3f6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "rightColumn": 21,
+  "searchTags": [
+    "dropdown",
+    "tags"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{Object.values(getAllCustomerSegments.data).filter(item => !!item.customer_segmentation_c).map((item) => ({ name:  item.customer_segmentation_c, code: item.customer_segmentation_c }))}}",
+  "tags": [
+    "Select"
+  ],
+  "topRow": 0,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "kd915msz8v",
+  "widgetName": "CustomerSegment"
+}

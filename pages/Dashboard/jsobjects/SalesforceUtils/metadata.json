@@ -1,0 +1,12 @@
+{
+  "baseIdOrFallback": "Dashboard_SalesforceUtils",
+  "gitSyncId": "655b663c44c3196dff1b331d_65fabd75c443cd0c8dfad3b0",
+  "id": "Dashboard_SalesforceUtils",
+  "unpublishedCollection": {
+    "name": "SalesforceUtils",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

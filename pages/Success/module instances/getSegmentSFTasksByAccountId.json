@@ -1,0 +1,20 @@
+{
+  "baseIdOrFallback": "Success_getSegmentSFTasksByAccountId",
+  "gitSyncId": "655b663c44c3196dff1b331d_65f3eff3c577b61ea87bdddb",
+  "id": "Success_getSegmentSFTasksByAccountId",
+  "moduleUUID": "65f3efefc577b61ea87bddae",
+  "packageUUID": "65ef3f10cda3a1187b7dc18d",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "whatId": "{{SFTableData.selectedRow.Id}}"
+    },
+    "moduleInputs": {
+      "vyelkkjcwb": {}
+    },
+    "name": "getSegmentSFTasksByAccountId",
+    "pageId": "Success",
+    "version": "0.0.22"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "baseIdOrFallback": "Revenue_Constants",
+  "gitSyncId": "655b663c44c3196dff1b331d_65a98983647afb48db3f7457",
+  "id": "Revenue_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Revenue",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "OpportunityQueryFields",
+        "value": "[\"id\", \"name\", \"account_id\", \"owner_id\", \"last_activity_date\", \"stage_name\", \"amount\", \"contract_start_date_c\", \"contract_end_date_c\", \"created_date\", \"sales_engineer_c\"]"
+      }
+    ]
+  }
+}

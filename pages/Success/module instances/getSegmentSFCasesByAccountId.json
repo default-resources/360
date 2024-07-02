@@ -1,0 +1,22 @@
+{
+  "baseIdOrFallback": "Success_getSegmentSFCasesByAccountId",
+  "gitSyncId": "655b663c44c3196dff1b331d_65f3efbfc577b61ea87bdd39",
+  "id": "Success_getSegmentSFCasesByAccountId",
+  "moduleUUID": "65f3efbdc577b61ea87bdd25",
+  "packageUUID": "65ef3f10cda3a1187b7dc18d",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "accountId": "{{SFTableData.selectedRow.Id}}",
+      "columns": "{{SegmentConstants.CaseQueryFields.join(\", \")}}"
+    },
+    "moduleInputs": {
+      "bzljrgvtbe": {},
+      "yfsfumddfu": {}
+    },
+    "name": "getSegmentSFCasesByAccountId",
+    "pageId": "Success",
+    "version": "0.0.22"
+  }
+}

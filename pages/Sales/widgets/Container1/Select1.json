@@ -1,0 +1,75 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6.5984375,
+  "boxShadow": "none",
+  "defaultOptionValue": "All",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "n5ejl4mxpy",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Sales Categories",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onOptionChange": "{{getSegmentSFOpportunities.run();\nresetWidget(\"Select2\", true);}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 24,
+  "originalTopRow": 17,
+  "parentColumnSpace": 4.5,
+  "parentId": "l31jkio3f6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 21,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"All\",\n    \"code\": \"All\"\n  },\n  {\n    \"name\": \"Pipeline\",\n    \"code\": \"Pipeline\"\n  },\n  {\n    \"name\": \"Closed Won\",\n    \"code\": \"Closed Won\"\n  },\n  {\n    \"name\": \"Closed Lost\",\n    \"code\": \"Closed Lost\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "0tvv2p24c3",
+  "widgetName": "Select1"
+}

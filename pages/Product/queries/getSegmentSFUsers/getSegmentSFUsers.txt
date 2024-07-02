@@ -1,0 +1,1 @@
+SELECT {{SegmentConstants.UserQueryFields.join(", ")}} FROM salesforce.users

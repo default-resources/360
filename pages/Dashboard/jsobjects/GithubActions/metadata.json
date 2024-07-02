@@ -1,0 +1,17 @@
+{
+  "baseIdOrFallback": "Dashboard_GithubActions",
+  "gitSyncId": "655b663c44c3196dff1b331d_65fbe91b57825011f78151b5",
+  "id": "Dashboard_GithubActions",
+  "unpublishedCollection": {
+    "name": "GithubActions",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "issues",
+        "value": "[]"
+      }
+    ]
+  }
+}

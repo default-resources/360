@@ -1,0 +1,20 @@
+{
+  "baseIdOrFallback": "Success_getSegmentSFOpportunities",
+  "gitSyncId": "655b663c44c3196dff1b331d_65fc55d9c38d6065dfc0de32",
+  "id": "Success_getSegmentSFOpportunities",
+  "moduleUUID": "65f3efe5c577b61ea87bdd83",
+  "packageUUID": "65ef3f10cda3a1187b7dc18d",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "columns": "{{SegmentConstants.OpportunityQueryFields.join(\", \")}}"
+    },
+    "moduleInputs": {
+      "pbvcelrrdr": {}
+    },
+    "name": "getSegmentSFOpportunities",
+    "pageId": "Success",
+    "version": "0.0.22"
+  }
+}

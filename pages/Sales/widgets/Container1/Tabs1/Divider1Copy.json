@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "bottomRow": 49.400000000000006,
+  "capSide": 0,
+  "capType": "nc",
+  "displayName": "Divider",
+  "dividerColor": "#e0dede",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.3b7d47d7bd70da418a827287042cbb7f.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5ubjxhio6p",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "orientation": "horizontal",
+  "originalBottomRow": 36,
+  "originalTopRow": 32,
+  "parentColumnSpace": 7.015625,
+  "parentId": "2n5go1xcxp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "line"
+  ],
+  "strokeStyle": "solid",
+  "tags": [
+    "Layout"
+  ],
+  "thickness": 2,
+  "topRow": 45.400000000000006,
+  "type": "DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "gzfeb2z0pc",
+  "widgetName": "Divider1Copy"
+}

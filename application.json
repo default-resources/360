@@ -1,0 +1,83 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D6D1F2",
+  "evaluationVersion": 2,
+  "icon": "basketball",
+  "pages": [
+    {
+      "baseId": "Dashboard",
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
+      "baseId": "Success",
+      "id": "Success",
+      "isDefault": false
+    },
+    {
+      "baseId": "Sales",
+      "id": "Sales",
+      "isDefault": false
+    },
+    {
+      "baseId": "Product",
+      "id": "Product",
+      "isDefault": false
+    },
+    {
+      "baseId": "Support",
+      "id": "Support",
+      "isDefault": false
+    },
+    {
+      "baseId": "Revenue",
+      "id": "Revenue",
+      "isDefault": false
+    },
+    {
+      "baseId": "Stability",
+      "id": "Stability",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  }
+}

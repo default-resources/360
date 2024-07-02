@@ -1,0 +1,17 @@
+{
+  "baseIdOrFallback": "Success_Stats_v2",
+  "gitSyncId": "655b663c44c3196dff1b331d_658d3d7dc110763dabf28b49",
+  "id": "Success_Stats_v2",
+  "unpublishedCollection": {
+    "name": "Stats_v2",
+    "pageId": "Success",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "usageInputs",
+        "value": "{}"
+      }
+    ]
+  }
+}
