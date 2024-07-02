@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "decimals": 0,
+  "defaultCurrencyCode": "INR",
+  "defaultText": "",
+  "displayName": "Currency Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.c434e04aaa78b8f4337c28b627b7cc81.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "n02q5iz6eu",
+  "label": "Label",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 19,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 17.625,
+  "parentId": "nq63v3axfa",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 39,
+  "searchTags": [
+    "amount",
+    "total"
+  ],
+  "showStepArrows": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.b14e0307b1b312b9e9ca9580d118af39.svg",
+  "topRow": 0,
+  "type": "CURRENCY_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "6pgmemvaiy",
+  "widgetName": "CurrencyInput1"
+}
